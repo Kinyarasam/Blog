@@ -7,96 +7,99 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Blogs</title>
 </head>
-<body class="bg-slate-50 text-slate-600 mx-5 text-xs bg-[url(./asset/bg_web.png)]" >
-    <div class="mt-5 hover:shadow bg-white border px-5 py-2 rounded-xl flex justify-between items-center">
-        <div class="font-bold text-lg hover:scale-110 text-teal-500">
-            BLOGS
+<body class=" bg-[url(./asset/bg_web.png)]" >
+    <div class="text-slate-600  text-xs md:text-base bg-gray-900/80 p-5">
+        <div class="mt-5 hover:shadow-xl hover:shadow-black bg-white border px-5 py-2 rounded-xl flex justify-between items-center">
+            <div class="font-bold text-lg hover:scale-110 text-teal-500">
+                BLOGS
+            </div>
+            <div class="flex text-rose-500">
+                <div class="mx-2 cursor-pointer hover:scale-110">
+                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiBox-root css-1om0hkc" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AccountCircleIcon"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm0 14c-2.03 0-4.43-.82-6.14-2.88C7.55 15.8 9.68 15 12 15s4.45.8 6.14 2.12C16.43 19.18 14.03 20 12 20z"></path></svg>
+                    <!-- <img 
+                        src="./asset/user_profile.png" 
+                        alt="Profile" 
+                        class="h-6 w-6"    
+                    > -->
+                    <span>Guest</span>
+                </div>
+                <div class="cursor-pointer mx-2 hover:scale-110">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiBox-root css-1om0hkc" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MenuIcon"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+                        Menu
+                </div>
+    
+            </div>
         </div>
-        <div class="flex text-rose-500">
-            <div class="mx-2 cursor-pointer hover:scale-110">
-                <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiBox-root css-1om0hkc" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AccountCircleIcon"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm0 14c-2.03 0-4.43-.82-6.14-2.88C7.55 15.8 9.68 15 12 15s4.45.8 6.14 2.12C16.43 19.18 14.03 20 12 20z"></path></svg>
-                <!-- <img 
-                    src="./asset/user_profile.png" 
-                    alt="Profile" 
-                    class="h-6 w-6"    
-                > -->
-                <span>Guest</span>
-            </div>
-            <div class="cursor-pointer mx-2 hover:scale-110">
-                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiBox-root css-1om0hkc" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MenuIcon"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
-                    Menu
-            </div>
-
-        </div>
-    </div>
-    <header class="flex justify-center items-center">
-        <p class="text-2xl p-2 pb-4 my-3 font-semibold text-slate-800 border-b-2 border-gray-500 ">
-            HOW THE WEB WORKS
-        </p>
-        <span class="border-b border-gray-500"></span>
-
-    </header>
-    <div class="flex justify-center bg-white shadow p-4 rounded-xl h-[600px] overflow-y-scroll">
-        <div>
-            <p>Welcome to My Blog Post</p>
-            <br><br>
-            <b>Quick Intro into the web</b>
+        <section class="flex justify-center items-center">
+            <p class="text-2xl p-2 pb-4 my-3 font-semibold border-b-2 border-gray-500 text-white">
+                HOW THE WEB WORKS
+            </p>
+            <span class="border-b border-gray-500"></span>
+    
+        </section>
+        <div class="flex justify-center bg-white shadow p-4 rounded-xl h-[600px] overflow-y-scroll">
             <div>
-                What happens when you look up something on your browser?
-            </div>
-            <br>
-            <!-- <br><p>TODAY I ARE GOING TO ANSWER THE QUESTION, 'WHAT DOES THE WEB WORK?'</p> -->
-            <div>
-
-                Have you ever wondered what happens when you search something on  your Browser. <br><br> In this Blog post I'll try to demysiyfy what usually happens wheb you look something up.
+                <p>Welcome to My Blog Post</p>
                 <br><br>
-                Communication on the web is made possible when there we have two applications/machines/softwares communicating.
+                <b>Quick Intro into the web</b>
+                <div>
+                    What happens when you look up something on your browser?
+                </div>
                 <br>
-                
-                <h3><b>Definition of Terms</b></h3>
-                The following are some of the terms that may be worth learning as you learn more about how the web works. They may include;
-                <li>
-                    <b>Client</b>
-                </li>
-                A client can be defined as a program that uses resources provided by the server.
-                
-                <li>
-                    <b>Server</b>
-                </li>
-                A Server can be defined as the program/special software that makes this resource available to the client and is responsible for memory locations.
-                
-                <li>
-                    DNS
-                </li>
-                The initials represent the Domain Name System. The DNS is responsible for translating human readable domain names into machine readable ip addresses.
-                
-                <li>
-                    Ip address
-                </li>
-                An <b>ip address</b> is a unique address that identifies a device on the internet or a local network.
-                
-                <li>
-                    ISP
-                </li>
-                ISP refers to the internet service provider. This may be a company that provides individuals, organizations or other companies access to the internet and other related services.
-            </div>
-<br><br><br>
-This are some of the terms that I'll be using to simplify the Web to you.
-
-
-<div>
-    A simple web architecture may look like this:-
-
-</div>
-
-       </div>
-
-
+                <!-- <br><p>TODAY I ARE GOING TO ANSWER THE QUESTION, 'WHAT DOES THE WEB WORK?'</p> -->
+                <div>
+    
+                    Have you ever wondered what happens when you search something on  your Browser. <br><br> In this Blog post I'll try to demysiyfy what usually happens when   you look something up.
+                    <br><br>
+                    Communication on the web is made possible when there we have two applications/machines/softwares communicating.
+                    <br>
+                    
+                    <h3><b>Definition of Terms</b></h3>
+                    The following are some of the terms that may be worth learning as you learn more about how the web works. They may include;
+                    <li>
+                        <b>Client</b>
+                    </li>
+                    A client can be defined as a program that uses resources provided by the server.
+                    
+                    <li>
+                        <b>Server</b>
+                    </li>
+                    A Server can be defined as the program/special software that makes this resource available to the client and is responsible for memory locations.
+                    
+                    <li>
+                        DNS
+                    </li>
+                    The initials represent the Domain Name System. The DNS is responsible for translating human readable domain names into machine readable ip addresses.
+                    
+                    <li>
+                        Ip address
+                    </li>
+                    An <b>ip address</b> is a unique address that identifies a device on the internet or a local network.
+                    
+                    <li>
+                        ISP
+                    </li>
+                    ISP refers to the internet service provider. This may be a company that provides individuals, organizations or other companies access to the internet and other related services.
+                </div>
+    <br><br><br>
+    This are some of the terms that I'll be using to simplify the Web to you.
+    
+    
+    <div>
+        A simple web architecture may look like this:-
+    
+    </div>
+    
+           </div>
+    
+    
+    
+        </div>
+        <footer class="bg-rose-500 p-2 h-12 my-2 rounded">
+    
+        </footer>
 
     </div>
-    <footer class="bg-rose-500 p-2 h-12 my-2 rounded">
-
-    </footer>
 
 </body>
 </html>
